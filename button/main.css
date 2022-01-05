@@ -1,0 +1,55 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body 
+{
+background-image: url(ameno.jpg);
+height: 3000px;
+}
+
+
+
+
+.pkp 
+{ 	
+position:fixed;
+display:flex;
+align-items:center;
+justify-content:center;
+top:0px;
+left:0px;
+width:100vw;
+height:100vh;
+}
+.damn 
+{
+	color: white;
+	background-color: rgb(51 15 76 / 70%);;
+	padding: 2px;
+	font-size: 50px;
+	text-align: center;
+  border: 2px double white;
+  border-radius: 20px;
+   transition: all 0.30s ease-in-out;
+}
+.damn:hover {
+	transform: scale(1.05);
+	  box-shadow: 0 0 8px 2px magenta;
+	 border-style: 10px ridge black;
+	 background-color: rgb(51 15 76 / 100%);
+}
+.damn:active{
+	box-shadow: 0 0 15px 5px indigo;
+	transform: scale(1);
+}
+@font-face {
+	font-family: 'PT Serif Caption'; 
+	src: url(Fonts/PTSerifCaption-Regular.ttf);}
+	h4{
+		font-family: 'PT Serif Caption'; 
+	}
+
+
